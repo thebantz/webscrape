@@ -23,6 +23,7 @@
   "homepage": "https://github.com/thebantz/webscrape#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
+    "htmlparser2": "^4.1.0",
     "jsonframe-cheerio": "^3.0.1"
   }
 }

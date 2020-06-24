@@ -1,10 +1,4 @@
 let cheerio = require('cheerio')
-// let $ = cheerio.load(`
-// 	<body>
-// 		<h1>I love jsonframe!</h1>
-// 		<span itemprop="email"> Email: gabin@datascraper.pro  </span>
-// 	<body>`)
-
 let htmlString = `<!DOCTYPE html>
 <html lang="en">
 
@@ -58,11 +52,6 @@ let $ = cheerio.load(htmlString);
 
 let jsonframe = require('jsonframe-cheerio')
 jsonframe($) // initializing the plugin
-
-// let details = {
-//   "name": "h1", // this is an inline selector
-//   "email": "span[itemprop=email] < email" // output an extracted email
-// }
 
 let details = {
   "companies": {
