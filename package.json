@@ -1,0 +1,27 @@
+{
+  "name": "webscrape",
+  "version": "1.0.0",
+  "description": "Implement simple webscraping techniques",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebantz/webscrape.git"
+  },
+  "keywords": [
+    "web",
+    "scraping"
+  ],
+  "author": "Nicole Banta, AJ Jigjidsuren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thebantz/webscrape/issues"
+  },
+  "homepage": "https://github.com/thebantz/webscrape#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "jsonframe-cheerio": "^3.0.1"
+  }
+}
